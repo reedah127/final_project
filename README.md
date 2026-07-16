@@ -1,16 +1,37 @@
-# React + Vite
+# Testing notes:
+Issues with the backend and frontend not connecting. Took me two whole days just to be able to connect them. After many, MANY, attempts I figured out it was a port issue. I also found out hoe to stop any ports running in the background of the mac so if this issue happens again I can fix it. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Seperate terminals WERE required to get this to work. On top of this Mongodb had its own issues with me. 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Other comments:
+Tracking app is not where I want it to be but because of testing issues and all that went into the code I have it where it needs to be. I would have liked to fix the buttons and change up the layout again. I changed it about 4 times before I just gave up. I want to learn more about React and Vite, I had to look up a few things to get the code and css to work cohesivley but all in all It looks decent. 
 
-## React Compiler
+# Technologies:
+Backend API foundation: Node.js, Express framework, Mongoose 
+Frontend user interface: React functional components, JSX, CSS Custom Variables
+Database storage engine: MongoDB Atlas 
+Security: JSON Web Tokens (jsonwebtoken), bcrypt 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Features:
+Account Onboarding
+Stateless Session Control
+User Data
+Full CRUD Management
+Dynamic Feedback Alerts
 
-## Expanding the Oxlint configuration
+# Routes:
+GET /api/health 
+POST /api/auth/register 
+POST /api/auth/login 
+GET /api/tasks 
+POST /api/tasks 
+PUT /api/tasks/:id
+DELETE /api/tasks/:id 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# Locallly run server
+Frontend: cd frontend -> npm run dev
+Backend: cd backend -> npm run dev
+
+
+
