@@ -58,7 +58,7 @@ npm run dev (Port 5173)
 # Setup & Terminal Requirements
 Dependency installation: Run npm install inside both directories first.
 Dual terminals: Separate command lines are required for each server.
-Port identification: Explicitly state which ports run the frontend and backend.
+Port identification
 
 # Testing notes:
 Issues with the backend and frontend not connecting. Took me two whole days just to be able to connect them. After many, MANY, attempts I figured out it was a port issue. I also found out how to stop any ports running in the background of the mac so if this issue happens again I can fix it. 
