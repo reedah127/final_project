@@ -46,7 +46,9 @@ Functions: Secured user authentication and full CRUD data management.
 # Environment Variables
 MONGO_URI: Connection string for the MongoDB Atlas database storage.
 JWT_SECRET: Secret key used for signing stateless session tokens.
-PORT: 
+
+PORT:
+
 cd backend
 npm run dev (Port 5173)
 cd frontend
@@ -59,7 +61,7 @@ Dual terminals: Separate command lines are required for each server.
 Port identification: Explicitly state which ports run the frontend and backend.
 
 # Testing notes:
-Issues with the backend and frontend not connecting. Took me two whole days just to be able to connect them. After many, MANY, attempts I figured out it was a port issue. I also found out hoe to stop any ports running in the background of the mac so if this issue happens again I can fix it. 
+Issues with the backend and frontend not connecting. Took me two whole days just to be able to connect them. After many, MANY, attempts I figured out it was a port issue. I also found out how to stop any ports running in the background of the mac so if this issue happens again I can fix it. 
 
 # Technologies:
 Backend API foundation: Node.js, Express framework, Mongoose 
